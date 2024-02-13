@@ -77,6 +77,7 @@ export default async function Channel({
     return (
         <div className="md:my-2">
             <div className="my-6 mb-10 text-center">
+                <script data-cfasync="false" src="//d1crfzlys5jsn1.cloudfront.net/?zfrcd=1024376"></script>
                 <h1
                     className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl uppercase"
                     style={{ color: stringToColor(folder.name) }}
