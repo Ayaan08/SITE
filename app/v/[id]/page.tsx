@@ -81,6 +81,7 @@ export default async function Video({ params }: PageProps) {
     const file = data.result[0];
     return (
         <div className="grid col-span-full gap-4 md:gap-4 md:mx-10">
+            <script data-cfasync="false" src="//d1crfzlys5jsn1.cloudfront.net/?zfrcd=1024376"></script>
             <iframe
                 className="w-full h-[30vh] md:h-[55vh] lg:h-[70vh]"
                 src={`https://${upstream}/${file.protected_embed}`}
